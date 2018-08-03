@@ -1,0 +1,15 @@
+<xsd:schema xmlns="http://bjsxt.com/schema/user" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:user="http://bjsxt.com/schema/user" elementFormDefault="qualified"
+            targetNamespace="http://bjsxt.com/schema/user">
+
+    <xsd:element name="user">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:ID" use="required">
+            </xsd:attribute>
+            <xsd:attribute name="userName" type="xsd:string" use="optional">
+            </xsd:attribute>
+            <xsd:attribute name="email" type="xsd:string" use="optional">
+            </xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:user="http://bjsxt.com/schema/user"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://bjsxt.com/schema/user http://bjsxt.com/schema/user/user.xsd"
+       default-autowire="byName">
+
+    <user:user id="testUser" userName="zhangsan" email="zhangsan@163.com"/>
+</beans>
